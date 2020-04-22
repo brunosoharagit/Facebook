@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header
+{
+    background-color: #3b5998;
+    padding: 8px 0;
+}
+
+/*Manter o centainer centralizado*/
+.center
+{
+    max-width: 1400px;
+    padding: 0 2%;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.clear{clear: both;}
+
+.logo
+{
+    font-family: "Lato";
+    float: left;
+    padding-left: 10%;
+}
+
+.logo h1
+{
+    font-weight: 900;
+}
+
+form.form-login
+{
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+}
+
+.form-login .form-element
+{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-element p
+{
+    font-size: 11px;
+}
+
+.form-element input[type=email],
+.form-element input[type=text],
+.form-element input[type=password]
+{
+    margin-top: 4px;
+}
+
+.form-element input[type=submit]
+{
+    background-color: #3b5998;
+    border: solid 1px #333;
+    width: 50px;
+    color: #fff;
+}
+.form-element input[type=submit]:hover
+{
+    background-color: #2a4887;
+}
